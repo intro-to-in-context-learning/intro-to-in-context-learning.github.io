@@ -266,7 +266,7 @@
         <h2 class="title is-3">Overview</h2>
         <div class="content has-text-justified" style="align-items: stretch;">
           <p>
-            In-Context Learning (ICL) is a recent paradigm in the field of machine learning which uses Large Language Models (LLMs) for learning and inference. It was first identified in the paper <a href="https://arxiv.org/abs/2005.14165" target="_blank" style="color: #8C1D40;"><i>Large Language Models are Few Shot Learners</i></a> (Brown et al., 2020). ICL enables large language models (LLMs) to adjust to new tasks without changing any of their internal weights. Instead of retraining or fine-tuning the LLM, we simply provide instructions and examples directly as part of the prompt context. In turn, the LLM processes these demonstrations, detects the underlying patterns, and applies the identified pattern structure to new input queries. ICL requires no explicit training phase, which allows for incremental and online learning. In addition, the LLM may provide human-readable explanations in natural language which justify its generated output. Most importantly, ICL allows for additional domain information to be provided at inference time as inductive bias. For example, when making predictions about the weather, the model may be provided semantic descriptions of the provided features or may be provided prior information about the specific region that is under investigation. More generally the use of ICL enables a single neural network model to seamlessly shift between tasks, e.g., classification, translation, summarization, or reasoning, based solely on the current context. In this website, we introduce the core ideas behind in-context learning and provide a variety of hands-on examples in regression, reinforcement learning, pattern recognition, and translation. <strong>All examples are implemented as Google Colab tutorials and can be run using the free Gemini version.</strong>
+            In-Context Learning (ICL) is a recent paradigm in the field of machine learning which uses Large Language Models (LLMs) for learning and inference. It was first identified in the paper <a href="https://arxiv.org/abs/2005.14165" target="_blank" style="color: #8C1D40;"><i>Large Language Models are Few Shot Learners</i></a> (Brown et al., 2020). ICL enables LLMs to adjust to new tasks without changing any of their internal weights. Instead of retraining or fine-tuning the LLM, we simply provide instructions and examples directly as part of the prompt context. In turn, the LLM processes these demonstrations, detects the underlying patterns, and applies the identified pattern structure to new input queries. ICL requires no explicit training phase, which allows for incremental and online learning. In addition, the LLM may provide human-readable explanations in natural language which justify its generated output. Most importantly, ICL allows for additional domain information to be provided at inference time as inductive bias. For example, when making predictions about the weather, the model may be provided semantic descriptions of the provided features or may be provided prior information about the specific region that is under investigation. More generally the use of ICL enables a single neural network model to seamlessly shift between tasks, e.g., classification, translation, summarization, or reasoning, based solely on the current context. In this website, we introduce the core ideas behind in-context learning and provide a variety of hands-on examples in regression, reinforcement learning, pattern recognition, and translation. <strong>All examples are implemented as Google Colab tutorials and can be run using the free Gemini version.</strong>
           </p>
         </div>
         <br>
@@ -489,7 +489,9 @@
 
       <div class="column is-one-fourth">
         <div class="box has-text-centered" style="height: 100%;">
-          <h3 class="title is-14 has-text-centered">ProPS</h3>
+          <h3 class="title is-14 has-text-centered">ProPS<br>
+            <span style="font-size: 0.5em;">"Reinforcement Learning using LLMs"</span>
+          </h3>
           <img src="static/images/mountain_car.gif" alt="props" style="height: 150px;">
           <p>Utilization of Prompted Policy Search on MountainCar-v0</p>
 
@@ -510,7 +512,9 @@
 
       <div class="column is-one-fourth">
         <div class="box has-text-centered" style="height: 100%;">
-          <h3 class="title is-14 has-text-centered">ProPS+</h3>
+          <h3 class="title is-14 has-text-centered">ProPS+<br>
+            <span style="font-size: 0.5em;">"RL using LLMs with Semantics"</span>
+          </h3>
           <img src="static/images/swimmer.gif" alt="props+" style="height: 150px;">
           <p>Utilization of ProPS + Environment Description on Swimmer-v5</p>
 
@@ -531,7 +535,9 @@
 
       <div class="column is-one-fourth">
         <div class="box has-text-centered" style="height: 100%;">
-          <h3 class="title is-14 has-text-centered">SAS-Prompt</h3>
+          <h3 class="title is-14 has-text-centered">SAS-Prompt<br>
+            <span style="font-size: 0.5em;">"Self-Improvement using LLMs"</span>
+          </h3>
           <img src="static/images/golf_robot.gif" alt="sas_prompt" style="height: 150px;">
           <p>Implementation of SAS-Prompt through a Golf Simulation</p>
 
@@ -552,7 +558,9 @@
 
       <div class="column is-one-fourth">
         <div class="box has-text-centered" style="height: 100%;">
-          <h3 class="title is-14 has-text-centered">Numerical Optimization</h3>
+          <h3 class="title is-14 has-text-centered">Numerical Optimization <br>
+            <span style="font-size: 0.5em;">"Numerical Optimization inside the LLM"</span>
+          </h3>
           <img src="static/images/numerical_optimization.gif" alt="numerical_optimization" style="height: 150px;">
           <p>Numerical Optimization using the 1D & 2D Ackley Function</p>
 
